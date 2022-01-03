@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Classic Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body onload="show()">
+    <script src="script.js"></script>
+
+    <h2>|| The Classic Photo Gallery ||</h2>
+
+    <div class="image-slider">
+      <div id="leftarrow">
+        <button onclick="moveLeft()">&lt;</button>
+      </div>
+      <div class="image" id="image-1">
+        <img src="images/image1.jpg" alt="image-1" />
+      </div>
+      <div class="image" id="image-2">
+        <img src="images/image2.jpg" alt="image-2" />
+      </div>
+      <div class="image" id="image-3">
+        <img src="images/image3.jpg" alt="image-3" />
+      </div>
+      <div class="image" id="image-4">
+        <img src="images/image4.jpg" alt="image-4" />
+      </div>
+      <div class="image" id="image-5">
+        <img src="images/image5.jpg" alt="image-5" />
+      </div>
+      <div class="image" id="image-6">
+        <img src="images/image6.jpg" alt="image-6" />
+      </div>
+      <div class="image" id="image-7">
+        <img src="images/image7.jpg" alt="image-7" />
+      </div>
+      <div class="image" id="image-8">
+        <img src="images/image8.jpg" alt="image-8" />
+      </div>
+      <div class="image" id="image-9">
+        <img src="images/image9.jpg" alt="image-9" />
+      </div>
+      <div class="image" id="image-10">
+        <img src="images/image10.jpg" alt="image-10" />
+      </div>
+      <div class="image" id="image-11">
+        <img src="images/image11.jpg" alt="image-11" />
+      </div>
+      <div class="image" id="image-12">
+        <img src="images/image12.jpg" alt="image-12" />
+      </div>
+      <div class="image" id="image-13">
+        <img src="images/image13.jpg" alt="image-13" />
+      </div>
+      <div class="image" id="image-14">
+        <img src="images/image14.jpg" alt="image-14" />
+      </div>
+      <div class="image" id="image-15">
+        <img src="images/image15.jpg" alt="image-15" />
+      </div>
+      <div id="rightarrow">
+        <button onclick="moveRight()">&gt;</button>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div class="frame-image-slider">
+      <div id="leftarrow">
+        <button onclick="moveByOne(-1)">&lt;</button>
+      </div>
+      <div class="frame-image">
+        <img src="images/imageholder.jpg" id="frame" />
+      </div>
+      <div id="rightarrow">
+        <button onclick="moveByOne(1)">&gt;</button>
+      </div>
+    </div>
+    <p id="image-description"></p>
+  </body>
+</html>
